@@ -13,14 +13,14 @@ th,
 td {
   border-collapse: collapse;
   border: 1px solid black;
-  padding: 10px;
+  padding: 5px;
   margin: auto;
 }
 table {
   direction: rtl;
 }
 input {
-  padding: 10px;
+  padding: 5px;
 }
 .title {
   margin: auto;
