@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>الثانوية المختلطة مروانة</title>
+  </head>
+  <body">
+  <div class="max-w-[90rem] mx-auto" >
+    <div class="header">
+      <div class="img">
+        <h1 class="title">حساب المعدل لتلاميذ شعبة الرياضيات</h1>
+          <table id="table">
+            <tr>
+              <th>المادة</th>
+              <th>الفرض 1</th>
+              <th>الفرض 2</th>
+              <th>الامتحان</th>
+              <th>معدل المادة</th>
+            </tr>
+              <tr>
+                <td><input type="text" disabled value="رياضيات"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="علوم فيزيائية"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="علوم طبيعية"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="تاريخ وجغرافيا"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="ادب عربي"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="لغة فرنسية"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="لغة انجليزية"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="علوم اسلامية"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="تربية بدنية"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" max="20" min="0"></td>
+                <td><input type="number" disabled max="20" min="0"></td>
+              </tr>
+              <tr>
+                <td><input type="text" disabled value="المعدل العام"></td>
+                <td  colspan="4"><input id="moyen" style="display: block; margin: 0 auto;" type="number" disabled></td>
+              </tr>
+          </table>
+          <button class="calc" type="button" onclick="calcMoyen()">حساب المعدل</button>
+        </div>
+      </div>
+  </div>
+<script src="./assets/js/script.js"></script>
+  </body>
+</html>
