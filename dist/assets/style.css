@@ -1,0 +1,46 @@
+/* .header {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 15;
+} */
+/* .img {
+  height: 577px;
+  background: url("../assets/img/lycee.jpg") no-repeat center;
+  background-size: 100% 800px;
+  z-index: 20;
+} */
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 20px;
+  margin: auto;
+}
+table {
+  direction: rtl;
+}
+input {
+  padding: 10px;
+}
+.title {
+  margin: auto;
+  text-align: center;
+  color: brown;
+  padding: 20px;
+}
+.calc {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 40px;
+  background-color: aqua;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#moyen {
+  background-color: brown;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
