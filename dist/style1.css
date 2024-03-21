@@ -182,3 +182,9 @@ a:hover > li {
   font-size: 16px;
   padding-top: 10px;
 }
+.rights {
+  position: absolute;
+  margin-top: 300px;
+  color: #8c8c8f;
+  font-size: 16px;
+}
